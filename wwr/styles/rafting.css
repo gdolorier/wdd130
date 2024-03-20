@@ -20,10 +20,6 @@ a {
     color: var(--primary-color);
   }
   
-a:hover {
-    color: darken(var(--primary-color), 10%);
-  }
-
 .sociallinks {
     text-decoration: none;
 }
@@ -74,7 +70,7 @@ a:hover {
 
 .hero article img {
     position: absolute;
-    top: 7;
+    top: 50px;
     right: 0; 
     width: 150px;
   }
