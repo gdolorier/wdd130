@@ -5,12 +5,12 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-bo;
+    box-sizing: border-box;
 }
 
 body {
     font-family: "Bungee Spice", sans-serif;
-    font-size: 1.2 rem;
+    font-size: 1.2rem;
     color: black;
     background: #fff;
 }
@@ -21,8 +21,8 @@ header {
 }
 
 h1 {
-    margin: 1 rem;
-    font-size: 1.5 rem;
+    margin: 1rem;
+    font-size: 1.5rem;
     color: navy;
     text-align: center;
 }
