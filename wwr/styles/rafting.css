@@ -29,40 +29,39 @@ a {
     width: 100%;
     height: 300px; 
     overflow: hidden; 
-  }
+}
 
 .hero img {
     width: 100%;
     height: auto;
     display: block;
-  }
+}
 
 .hero h1 {
     position: absolute;
     top: 0px;
-    left: 500px;
     transform: translate(-50%, -50%);
+    left: 780px;
     text-align: center;
-    color: white;
+    color: #1741a2 ;
   }
   
 .hero article {
-    position: absolute;
+  position: absolute;
     top: 170px;
-    left: 500px;
+    left: 740px;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-  }
+}
 .hero h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
-  }
+}
   
 .hero article {
     font-size: 1.2em;
     width: 80%;
-    margin: auto;
     background-color: rgba(0, 0, 0, 0.7); 
     padding: 20px; 
   }
@@ -75,7 +74,7 @@ a {
     width: 150px;
     margin-left: 50px;
     float: right;
-  }
+}
 
 p {
     font-family: var(--paragraph-font);
@@ -157,8 +156,12 @@ header img {
   margin: 10px;
 }
 
-footer {
+.foot {
   display: flex;
-  justify-content: space-around;
-  margin-right: auto;
+  justify-content: right;
+}
+
+.box1 {
+  display: flex;
+
 }
