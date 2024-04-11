@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+
+:root { 
+    --primary-color: #1741a2;
+    --secondary-color: #F29E03;
+    --accent1-color: #121B30;
+    --accent2-color: #5EB3C7;
+
+    --heading-font: "Bebas Neue", sans-serif;
+    --paragraph-font: "Montserrat", sans-serif;
+}
+
+h1, h2, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h3 {
+    font-family: var(--heading-font);
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 1px 0 black, -1px -1px black, 1px -1px black;
+}
+
+a {
+    color: var(--primary-color);
+}
+  
+.sociallinks {
+    text-decoration: none;
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+.sociallinks img {
+  width: 50px; 
+  height: auto;
+  margin-right: 10px; 
+  display: inline-block; 
+}
+
+header img {
+  width: 350px; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+header {
+    display: grid;
+    grid-column: 1/3; 
+    background-color: #fff;
+    align-items: center;
+}
+  
+nav {
+    display: flex;
+    align-items: center;
+    grid-column: 2/3;
+}
+  
+nav a {
+    margin-right: 10px; 
+}
+  
+  
+header img {
+    max-width: 150px; 
+    margin-right: 30px;
+}
+
+.foot {
+    display: flex;
+    justify-content: right;
+}
+
+.sociallinks {
+    margin-left: 25px;
+}
+
+.containerindex1 {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.containerindex1 img {
+    width: 100%;
+    height: 700px;
+    border-radius: 0.5rem;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 5px;
+}
+
+h1 {
+    font-size: 46px;
+    text-shadow: 1px 1px 0 white, -1px -1px white, 1px -1px white;
+}
+
+.title1 h1, .title2 {
+    text-align: center;
+}
+
+p {
+    color: black;
+    text-shadow: 1px 1px 0 white, -1px -1px white, 1px -1px white;
+    font-family: var(--paragraph-font);
+    font-size: 24px;
+}
+
+button {
+    margin: 1rem;
+    background-color: #1741a2;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
+}
+    
+button:hover {
+    background-color: darkgreen;
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 20px;
+}
+
+.container22 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 600px;
+    padding: 3rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    grid-row-gap: 1rem;
+}
+
+input, select, option {
+    padding: 0.4rem;
+}
+
+label, input, button, select, textarea {
+    font-family: "Montserrat", sans-serif;
+}
+
+.box1 {
+    justify-content: center;
+}
+
