@@ -161,7 +161,7 @@ button:hover {
     justify-content: center;
 }
 
-form {
+.fomy {
     width: 600px;
     padding: 3rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
