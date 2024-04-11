@@ -135,7 +135,7 @@ figure {
     padding: 5px;
     max-width: 200px;
     margin: auto;
-  }
+}
   
 figcaption {
     background-color: #222;
@@ -143,4 +143,8 @@ figcaption {
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
-  }
+}
+
+.wire {
+    flex: 1;
+}

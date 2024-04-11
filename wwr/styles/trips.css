@@ -202,3 +202,7 @@ tr:hover td{
 h1, h2 {
     text-align: center;
 }
+
+.wire {
+    flex: 1;
+}

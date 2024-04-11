@@ -183,3 +183,6 @@ label, input, button, select, textarea {
     justify-content: center;
 }
 
+.wire {
+    flex: 1;
+}
