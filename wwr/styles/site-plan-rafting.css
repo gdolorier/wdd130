@@ -12,6 +12,10 @@ body {
 
     --heading-font: "Bebas Naue", sans-serif;
     --paragraph-font: "Montserrat", sans-serif;
+    --nav-background-color: ; 
+    --nav-link-color: ; 
+    --nav-hover-link-color: ;  
+    --nav-hover-background-color: ;
 }
 
 h1, h2, h3, h4, h5, h6 {
